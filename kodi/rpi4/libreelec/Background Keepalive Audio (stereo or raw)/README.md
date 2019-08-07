@@ -15,6 +15,8 @@ If `autostart.sh` already exists, merge the contents manually.
 
 ----
 
+#### Audacity
+
 `bg.wav` was generated in Audacity via:
  - Set Project Rate (Hz) as desired. I used 8000.
  - Generate -> Tone
