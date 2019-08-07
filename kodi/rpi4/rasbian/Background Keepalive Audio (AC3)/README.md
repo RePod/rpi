@@ -26,7 +26,7 @@ You will need the following:
   - Add Kodi as a non-Steam game in Steam
   - Make sure the audio output device is default (so Steam can force it to switch) and the channels are set to 5.1
   - When you want to actually utilize this setup, play `bg.wav` in your media player on repeat at max volume (it's -36dB to begin with)
-      - To generate your own `bg.wav` refer to the stereo solution for Audacity instructions
+      - To generate your own `bg.wav` refer [to this](https://github.com/RePod/rpi/tree/master/kodi/rpi4/libreelec/Background%20Keepalive%20Audio%20(stereo%20or%20raw)#audacity)
       - Or just have it automatically start
       - Some may have noticed this is the *mixing step*, it may not be required but I don't know enough about ALSA/Pulse to do it on Rasbian
         
