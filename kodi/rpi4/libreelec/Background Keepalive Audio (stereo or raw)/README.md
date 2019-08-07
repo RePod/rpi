@@ -1,14 +1,14 @@
-###Who this is for
+### Who this is for
 Me, primarily. Also for people outputting stereo, downmixed audio, and *maybe* raw/LCPM multichannel.
 
-#### Context
+### Context
 My audio receiver, and possibly most devices that function the same, likes to drop the connection when there's silence. This is annoying when starting content, resuming from pause, or intentional silence in the content. The solution I came up with is to automatically play an inaudible, on my receiver, audio file so the connection stays alive. 
 
 The drawback from this is AC3 transcoding and potentially any bitstreaming outputs static because it cannot gain exclusive control. However, for the people who this is for they should not have this issue.
 
 I'm aware of Kodi's low noise option, but it's not effective enough for my receiver. More options would help, especially for AC3 and the off the wall workaround I came up with for that.
 
-#### Usage
+### Usage
 To use, download and copy this folder's contents into `/storage/.config/`.
 
 If `autostart.sh` already exists, merge the contents manually.
