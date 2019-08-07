@@ -1,5 +1,5 @@
 ### Who this is for
-Me, primarily. Also for people outputting stereo, downmixed audio, and *maybe* raw/LCPM multichannel.
+Me, primarily. Also for people outputting stereo, downmixed audio, and *maybe* raw/LPCM multichannel.
 
 ### Context
 My audio receiver, and possibly most devices that function the same, likes to drop the connection when there's silence. This is annoying when starting content, resuming from pause, or intentional silence in the content. The solution I came up with is to automatically play an inaudible, on my receiver, audio file so the connection stays alive. 
